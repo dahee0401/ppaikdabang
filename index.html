@@ -1,11 +1,13 @@
-<!DOCTYPE html>
 <html lang="ko">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>빽다방</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+  <title>빽다방 </title>
+  <link rel="icon" type="image/png" href="images/logo.png">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,800,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo" rel="stylesheet">
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/style.css">
   <script src="./js/jquery-1.12.3.js"></script>
@@ -15,1120 +17,331 @@
 
 <body>
   <div id="wrap">
-   <header>
-      <div class="bg-lnb"></div>
-      <h1 class="logo"><a href="#">빽다방</a></h1>
-      <div class="container">
-        <ul class="info">
-          <h2 class="sr-only">주요메뉴 바로보기</h2>
-          <li><a href="#">더본코리아</a></li>
-          <li><a href="#">매장찾기</a></li>
-          <li class="sns f"><a href="#">facebook</a></li>
-          <li class="sns i"><a href="#">instagram</a></li>
-        </ul>
-  
-        <nav>
-          <ol class="gnb">
-            <li>
-              <a href="#">빽다방</a>
-              <ol class="lnb">
-                <li><a href="#">CEO인사말</a> <span class="bar"></span></li>
-                <li><a href="#">빽다방 소개</a></li>
-                <li><a href="#">커피이야기</a></li>
-              </ol>
+    <header id="header">
+      <div class="in_header">
+        <div class="sub-bg"></div>
+        <div class="container">
+          <ul class="topbar">
+            <li><a href="#">더본코리아</a></li>
+            <li><a href="#">매장찾기</a></li>
+            <li class="sns f"><a href="#">facebook</a></li>
+            <li class="sns i"><a href="#">instagram</a>
             </li>
-            <li>
-              <a href="#">메뉴</a>
-              <ol class="lnb">
-                <li><a href="#">신메뉴</a></li>
-                <li><a href="#">커피</a></li>
-                <li><a href="#">음료</a></li>
-                <li><a href="#">아이스크림/디저트</a></li>
-                <li><a href="#">빽스치노</a></li>
-              </ol>
-            </li>
-            <li>
-              <a href="#">소식</a>
-              <ol class="lnb">
-                <li><a href="#">소식</a></li>
-                <li><a href="#">이벤트</a></li>
-                <li><a href="#">친절 우수매장</a></li>
-              </ol>
-            </li>
-            <li>
-              <a href="#">커뮤니티</a>
-              <ol class="lnb">
-                <li><a href="#">커피클래스</a></li>
-              </ol>
-            </li>
-            <li>
-              <a href="#">매장안내</a>
-              <ol class="lnb">
-                <li><a href="#">매장찾기</a></li>
-              </ol>
-            </li>
-            <li>
-              <a href="#">창업안내</a>
-              <ol class="lnb">
-                <li><a href="#">가맹정보 및 절차</a></li>
-              </ol>
-            </li>
-            <li>
-              <a href="#">고객의 소리</a>
-            </li>
-          </ol>
-        </nav>
+          </ul>
+          <div class="nav_wrap">
+            <a href="#" class="logo"><img src="./images/header_logo.png" alt="빽다방"></a>
+
+            <div class="nav">
+              <div class="nav-icon">
+                <div></div>
+              </div>
+              <ul class="navbar">
+                <li id="menu-item-95" class="menu-item">
+                  <a href="#">빽다방</a>
+                  <ul class="sub-menu">
+                    <li id="menu-item-83" class="menu-item">
+                      <a href="#">CEO 인사말</a>
+                    </li>
+                    <li id="menu-item-84" class="menu-item">
+                      <a href="#">빽다방 소개</a>
+                    </li>
+                    <li id="menu-item-15392" class="menu-item"><a href="#">커피이야기</a></li>
+                  </ul>
+                </li>
+                <li id="menu-item-192" class="menu-item">
+                  <a href="#">메뉴</a>
+                  <ul class="sub-menu">
+                    <li id="menu-item-86" class="menu-item">
+                      <a href="#">신메뉴</a>
+                    </li>
+                    <li id="menu-item-87" class="menu-item">
+                      <a href="#">커피</a>
+                    </li>
+                    <li id="menu-item-88" class="menu-item">
+                      <a href="#">음료</a>
+                    </li>
+                    <li id="menu-item-90" class="menu-item">
+                      <a href="#">아이스크림/디저트</a>
+                    </li>
+                    <li id="menu-item-89" class="menu-item">
+                      <a href="#">빽스치노</a>
+                    </li>
+                  </ul>
+                </li>
+                <li id="menu-item-97" class="menu-item">
+                  <a href="#">소식</a>
+                  <ul class="sub-menu">
+                    <li id="menu-item-58" class="menu-item">
+                      <a href="#">소식</a>
+                    </li>
+                    <li id="menu-item-519" class="menu-item"><a href="#">이벤트</a>
+                    </li>
+                    <li id="menu-item-6773" class="menu-item"><a href="#">친절
+                        우수매장</a></li>
+                  </ul>
+                </li>
+                <li id="menu-item-98" class="menu-item">
+                  <a href="#">커뮤니티</a>
+                  <ul class="sub-menu">
+                    <li id="menu-item-59" class="menu-item">
+                      <a href="#">커피 클래스</a>
+                    </li>
+                  </ul>
+                </li>
+                <li id="menu-item-99" class="menu-item">
+                  <a href="#">매장안내</a>
+                  <ul class="sub-menu">
+                    <li id="menu-item-61" class="menu-item">
+                      <a href="#">매장찾기</a>
+                    </li>
+                  </ul>
+                </li>
+                <li id="menu-item-17246" class="menu-item">
+                  <a href="#">창업안내</a>
+                  <ul class="sub-menu">
+                    <li id="menu-item-17247" class="menu-item"><a href="#">가맹정보 및
+                        절차</a></li>
+                  </ul>
+                </li>
+                <li id="menu-item-1019" class="menu-item">
+                  <a href="#">고객의 소리</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <nav class="mob">
+            <ul class="gnb_mob">
+              <li>
+                <a href="#">빽다방</a>
+                <ul class="sub-list">
+                  <li><a href="#">CEO 인사말</a></li>
+                  <li><a href="#">빽다방 소개</a></li>
+                  <li><a href="#">커피이야기</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">메뉴</a>
+                <ul class="sub-list">
+                  <li><a href="#">신메뉴</a></li>
+                  <li><a href="#">커피</a></li>
+                  <li><a href="#">음료</a></li>
+                  <li><a href="#">아이스크림/디저트</a></li>
+                  <li><a href="#">빽스치노</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">소식</a>
+                <ul class="sub-list">
+                  <li><a href="#">소식</a></li>
+                  <li><a href="#">이벤트</a></li>
+                  <li><a href="#">친절 우수메장</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">커뮤니티</a>
+                <ul class="sub-list">
+                  <li><a href="#">커피클래스</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">매장안내</a>
+                <ul class="sub-list">
+                  <li><a href="#">매장찾기</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">창업안내</a>
+                <ul class="sub-list">
+                  <li><a href="#">가맹정보 및 절차</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">고객의 소리</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </header>
-    <section>
-      <!-- 슬라이드 -->
-      <div class="slides">
-        <ul class="slides-container">
-          <li><a href="#"><img src="./images/main_1.jpg" alt="배너1"></a></li>
-          <li><a href="#"><img src="./images/main_2.jpg" alt="배너2"></a></li>
-          <li><a href="#"><img src="./images/main_3.jpg" alt="배너3"></a></li>
-          <li><a href="#"><img src="./images/main_4.jpg" alt="배너4"></a></li>
-        </ul>
+    <div id="content-wrap">
+      <div id="primary" class="content-area">
+        <main id="main" class="site-main" role="main">
+          <article id="post-13" class="post-13 page type-page status-publish hentry">
+            <div class="entry-content">
+              <!-- 메인슬라이드 -->
+              <div class="slides">
+                <ul class="slides-container">
+                  <li><a href="#"><img src="./images/main_1.jpg" alt="배너1"></a></li>
+                  <li><a href="#"><img src="./images/main_2.jpg" alt="배너2"></a></li>
+                  <li><a href="#"><img src="./images/main_3.jpg" alt="배너3"></a></li>
+                  <li><a href="#"><img src="./images/main_4.jpg" alt="배너4"></a></li>
+                </ul>
 
-        <ol class="slides-pagination">
-          <li class="on"><a href="#">0</a></li>
-          <li><a href="#">1</a></li>
-          <li><a href="#">2</a></li>
-          <li><a href="#">3</a></li>
-        </ol>
-        <a href="#" class="slides-auto pause">재생정지</a>
+                <ol class="slides-pagination">
+                  <li class="on"><a href="#">0</a></li>
+                  <li><a href="#">1</a></li>
+                  <li><a href="#">2</a></li>
+                  <li><a href="#">3</a></li>
+                </ol>
+                <a href="#" class="slides-auto pause">재생정지</a>
+              </div>
+              <!-- //메인비쥬얼 -->
+
+              <!-- 메인컨텐츠 -->
+              <div class="main_section">
+                <section class="main_sec row-1">
+                  <div class="container space">
+                    <h1 class="main_tit font-eb color-1"><span class="font-l">The Finest Quality Coffee
+                        Plants</span><br>PAIK’S COFFEE STORY</h1>
+                    <p class="font-l pc_ver">균형잡힌 바디감으로 긴여운을 남기는 빽다방 커피를 만나보세요.</p>
+                    <p class="font-l m_ver"></p>
+                    <a class="btn st-1" href="#"><span></span></a>
+                  </div>
+                </section>
+
+                <section class="main_sec row-2">
+                  <img class="pc_ver" src="./images/main_sec2.jpg" alt="">
+                  <img class="m_ver" src="./images/main_sec2.jpg" alt="">
+                  <div class="container">
+                    <h1 class="main_tit font-bl color-2">fresh<br>coffee</h1>
+                    <h2 class="sub_tit">신선한 뉴크롭 원두를 사용하여<br>추출한 커피메뉴!</h2>
+                    <a class="btn st-1" href="#"><span></span></a>
+                  </div>
+                </section>
+
+                <section class="main_sec row-3">
+                  <div class="grid_wrap clear">
+                    <div class="m10-col-6 clear">
+                      <img class="pc_ver" src="./images/main_sec3.jpg" alt="">
+                      <img class="m_ver" src="./images/main_sec3.jpg" alt="">
+                      <div class="inner">
+                        <h1 class="main_tit">various<br>beverage</h1>
+                        <h2 class="sub_tit">에이드, 티, 주스 등 취향대로<br>골라 먹는 즐거움!</h2>
+                        <a class="btn st-1" href="#"><span></span></a>
+                      </div>
+
+                    </div>
+                    <div class="m10-col-4">
+                      <img class="pc_ver" src="./images/main_sec4.jpg" alt="">
+                      <img class="m_ver" src="./images/main_sec4.jpg" alt="">
+                      <div class="inner">
+                        <h1 class="main_tit">sweet<br>paik's ccino</h1>
+                        <h2 class="sub_tit">달콤 시원한 빽다방<br>시그니처 메뉴!</h2>
+
+                        <a class="btn st-1" href="#"><span></span></a>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+
+                <section class="main_sec row-4">
+                  <div class="grid_wrap clear">
+                    <div class="r_box">
+                      <img class="pc_ver" src="./images/main_sec5.jpg" alt="">
+                      <img class="m_ver" src="./images/main_sec5.jpg" alt="">
+                      <div class="inner">
+                        <h1 class="main_tit font-bl">tasty<br>ice cream /<br>dessert</h1>
+                        <h2 class="sub_tit">달콤한 아이스크림부터<br>든든한 브레드 까지!</h2>
+                        <a class="btn st-1" href="#"><span></span></a>
+                      </div>
+                    </div>
+                    <div class="l_box clear">
+                      <div class="l_inner">
+                        <h1 class="main_tit2 color-1">store</h1>
+                        <p class="font-l">원하시는 지역의 매장을 검색해 보세요!</p>
+                        <div class="store_search">
+                          <form action="/store/" method="get">
+                            <input type="text" name="search_string" placeholder="Find a store in your area!">
+                            <button class="ok" type="submit" name=""><img src="./images/search-ico.png"
+                                alt="검색"></button>
+                          </form>
+                        </div>
+                      </div>
+                      <div class="l_inner">
+                        <h1 class="main_tit2 color-1">franchise</h1>
+                        <p class="font-l">빽다방 창업안내를 도와드리겠습니다.</p>
+                        <a class="btn st-1" href="#"></a>
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <div class="sns_section">
+                    <div class="container">
+                      <div class="text-center">
+                        <p class="font-2">PAIK’S COFFEE SNS</p>
+                        <p class="tag"><span>#빽다방</span><span>#빽다방신메뉴</span><span>#빽다방이벤트</span></p>
+                      </div>
+                      <ul class="sns_ico">
+                        <li><a href="#"><img src="./images/facebook-ico.png" alt="instagram"></a></li>
+                        <li><a href="#"><img src="./images/insta-ico.png" alt="instagram"></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </section>
+              </div>
+
+            </div>
+          </article>
+        </main>
       </div>
-      <!-- 배너 -->
-      <div class="banner">
-        <h1>
-          The Finest Quality Coffee Plants
-          <span>PAIK’S COFFEE STORY</span> <br />
-        </h1>
-        <p>균형잡힌 바디감으로 긴여운을 남기는 빽다방 커피를 만나보세요.</p>
-        <a href="#" class="btn">
-          <span></span>
-        </a>
-      </div>
 
-      <div class="bestmnu">
-        <span class="best-icon">
-          best
-        </span>
-        <h3>PAIK’S <span>BEST</span> MENU</h3>
-        <p>이 달의 인기 메뉴!</p>
-        <article class="mnu-slides">
-          <ul class="mnu-swiper">
-            <li><img src="./images/mnu1.png" alt="원조커피">
-              <span>best</span>
-              <p>원조커피 ICED</p>
-               <div class="list-info">
-              <button class="clse">닫기</button>
-              <h3>원조커피</h3>
-              <div class="menu-tit2">
-                ORIGINAL MIXED COFFEE
-                <p class="txt">
-                  달콤한 빽다방 대표메뉴, 믹스커피 종결자!
-                </p>
-                <div class="box">
-                  <p>※ 1회 제공량 기준:60ml</p>
-                  <ul class="table">
-                    <li>
-                      <div>카페인(mg)</div>
-                      <div>237.0</div>
-                    </li>
-                    <li>
-                      <div>나트륨(mg)</div>
-                      <div>0</div>
-                    </li>
-                    <li>
-                      <div>포화지방(g)</div>
-                      <div>0</div>
-                    </li>
-                    <li>
-                      <div>칼로리(kcal)</div>
-                      <div>22</div>
-                    </li>
-                    <li>
-                      <div>당류(g)</div>
-                      <div>0</div>
-                    </li>
-                    <li>
-                      <div>단백질(g)</div>
-                      <div>1</div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <p class="msg">
-                (매장 상황에 따라 판매하지 않을 수 있습니다.)
-              </p>
-            </div>
-            </li>
-            <li><img src="./images/mnu2.png" alt="달달연유라떼 ICED">
-              <span>best</span>
-              <p>달달연유라떼 ICED</p>
-               <div class="list-info">
-              <button class="clse">닫기</button>
-              <h3>달달연유라떼 ICED</h3>
-              <div class="menu-tit2">
-                CONDENSED MILK LATTE
-                <p class="txt">
-                  달달하고 향긋한 베트남식 연유라떼
-                </p>
-                <div class="box">
-                  <p>※ 1회 제공량 기준:60ml</p>
-                  <ul class="table">
-                    <li>
-                      <div>카페인(mg)</div>
-                      <div>237.0</div>
-                    </li>
-                    <li>
-                      <div>나트륨(mg)</div>
-                      <div>0</div>
-                    </li>
-                    <li>
-                      <div>포화지방(g)</div>
-                      <div>0</div>
-                    </li>
-                    <li>
-                      <div>칼로리(kcal)</div>
-                      <div>22</div>
-                    </li>
-                    <li>
-                      <div>당류(g)</div>
-                      <div>0</div>
-                    </li>
-                    <li>
-                      <div>단백질(g)</div>
-                      <div>1</div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <p class="msg">
-                (매장 상황에 따라 판매하지 않을 수 있습니다.)
-              </p>
-            </div>
-            </li>
-            <li><img src="./images/mnu3.png" alt="콜드브루 ICED">
-              <span>best</span>
-              <p>콜드브루 ICED</p>
-               <div class="list-info">
-              <button class="clse">닫기</button>
-              <h3>원조커피</h3>
-              <div class="menu-tit2">
-                ORIGINAL MIXED COFFEE
-                <p class="txt">
-                  달콤한 빽다방 대표메뉴, 믹스커피 종결자!
-                </p>
-                <div class="box">
-                  <p>※ 1회 제공량 기준:60ml</p>
-                  <ul class="table">
-                    <li>
-                      <div>카페인(mg)</div>
-                      <div>237.0</div>
-                    </li>
-                    <li>
-                      <div>나트륨(mg)</div>
-                      <div>0</div>
-                    </li>
-                    <li>
-                      <div>포화지방(g)</div>
-                      <div>0</div>
-                    </li>
-                    <li>
-                      <div>칼로리(kcal)</div>
-                      <div>22</div>
-                    </li>
-                    <li>
-                      <div>당류(g)</div>
-                      <div>0</div>
-                    </li>
-                    <li>
-                      <div>단백질(g)</div>
-                      <div>1</div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <p class="msg">
-                (매장 상황에 따라 판매하지 않을 수 있습니다.)
-              </p>
-            </div>
-            </li>
-            <li><img src="./images/mnu4.png" alt="릴렉싱허니셔벗페퍼민트(자몽)">
-              <span>best</span>
-              <p>릴렉싱허니셔벗페퍼민트(자몽)</p>
-              <div class="list-info">
-              <button class="clse">닫기</button>
-              <h3>릴렉싱허니셔벗페퍼민트(자몽)</h3>
-              <div class="menu-tit2" style="font-size: 0.89rem;">
-                RELAXING HONEY SHERBET (HIBISCUS LEMON)
-                <p class="txt">
-                  꿀 같은 달콤한 휴식을 선물해 줄 릴렉싱허니셔벗
-                </p>
-                <div class="box">
-                  <p>※ 1회 제공량 기준:60ml</p>
-                  <ul class="table">
-                    <li>
-                      <div>카페인(mg)</div>
-                      <div>237.0</div>
-                    </li>
-                    <li>
-                      <div>나트륨(mg)</div>
-                      <div>0</div>
-                    </li>
-                    <li>
-                      <div>포화지방(g)</div>
-                      <div>0</div>
-                    </li>
-                    <li>
-                      <div>칼로리(kcal)</div>
-                      <div>22</div>
-                    </li>
-                    <li>
-                      <div>당류(g)</div>
-                      <div>0</div>
-                    </li>
-                    <li>
-                      <div>단백질(g)</div>
-                      <div>1</div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <p class="msg">
-                (매장 상황에 따라 판매하지 않을 수 있습니다.)
-              </p>
-            </div>
-            </li>
-            <li><img src="./images/mnu5.png" alt="릴렉싱허니셔벗페퍼민트(자몽)">
-              <span>best</span>
-              <p>릴렉싱허니셔벗페퍼민트(자몽)</p>
-                 <div class="list-info">
-              <button class="clse">닫기</button>
-              <h3>릴렉싱허니셔벗페퍼민트(자몽)</h3>
-              <div class="menu-tit2" style="font-size: 0.89rem;">
-                RELAXING HONEY SHERBET (HIBISCUS LEMON)
-                <p class="txt">
-                  꿀 같은 달콤한 휴식을 선물해 줄 릴렉싱허니셔벗
-                </p>
-                <div class="box">
-                  <p>※ 1회 제공량 기준:60ml</p>
-                  <ul class="table">
-                    <li>
-                      <div>카페인(mg)</div>
-                      <div>237.0</div>
-                    </li>
-                    <li>
-                      <div>나트륨(mg)</div>
-                      <div>0</div>
-                    </li>
-                    <li>
-                      <div>포화지방(g)</div>
-                      <div>0</div>
-                    </li>
-                    <li>
-                      <div>칼로리(kcal)</div>
-                      <div>22</div>
-                    </li>
-                    <li>
-                      <div>당류(g)</div>
-                      <div>0</div>
-                    </li>
-                    <li>
-                      <div>단백질(g)</div>
-                      <div>1</div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <p class="msg">
-                (매장 상황에 따라 판매하지 않을 수 있습니다.)
-              </p>
-            </div>
-            </li>
-            <li><img src="./images/mnu6.png" alt="완전수박">
-              <span>best</span>
-              <p>완전수박</p>
-                <div class="list-info">
-              <button class="clse">닫기</button>
-              <h3>완전수박</h3>
-              <div class="menu-tit2">
-                WATERMELON JUICE
-                <p class="txt">
-                  달콤한 수박을 듬뿍 넣어 만든 완전수박
-                </p>
-                <div class="box">
-                  <p>※ 1회 제공량 기준:60ml</p>
-                  <ul class="table">
-                    <li>
-                      <div>카페인(mg)</div>
-                      <div>237.0</div>
-                    </li>
-                    <li>
-                      <div>나트륨(mg)</div>
-                      <div>0</div>
-                    </li>
-                    <li>
-                      <div>포화지방(g)</div>
-                      <div>0</div>
-                    </li>
-                    <li>
-                      <div>칼로리(kcal)</div>
-                      <div>22</div>
-                    </li>
-                    <li>
-                      <div>당류(g)</div>
-                      <div>0</div>
-                    </li>
-                    <li>
-                      <div>단백질(g)</div>
-                      <div>1</div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <p class="msg">
-                (매장 상황에 따라 판매하지 않을 수 있습니다.)
-              </p>
-            </div>
-            </li>
-            <li><img src="./images/mnu7.png" alt="공공치빵(초코맛)">
-              <span>best</span>
-              <p>공공치빵(초코맛)</p>
-                 <div class="list-info">
-              <button class="clse">닫기</button>
-              <h3>공공치빵(초코맛)</h3>
-              <div class="menu-tit2" style="font-size: 0.89rem;">
-                WATER ROUX CREAM CHEESE BREAD (CHOCOLATE)
-                <p class="txt">
-                  공’들여 ‘공’수한 크림’치’즈 ‘빵’ 쫄깃한 빵 속에 크림치즈와 생크림이 듬뿍! 초코크림이 한가득!
-                </p>
-                <div class="box">
-                  <p>※ 1회 제공량 기준:60ml</p>
-                  <ul class="table">
-                    <li>
-                      <div>카페인(mg)</div>
-                      <div>237.0</div>
-                    </li>
-                    <li>
-                      <div>나트륨(mg)</div>
-                      <div>0</div>
-                    </li>
-                    <li>
-                      <div>포화지방(g)</div>
-                      <div>0</div>
-                    </li>
-                    <li>
-                      <div>칼로리(kcal)</div>
-                      <div>22</div>
-                    </li>
-                    <li>
-                      <div>당류(g)</div>
-                      <div>0</div>
-                    </li>
-                    <li>
-                      <div>단백질(g)</div>
-                      <div>1</div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <p class="msg">
-                (매장 상황에 따라 판매하지 않을 수 있습니다.)
-              </p>
-            </div>
-            </li>
-            <li><img src="./images/mnu8.png" alt="공공치빵(초코맛)">
-              <span>best</span>
-              <p>공공치빵(파맛)</p>
-                 <div class="list-info">
-              <button class="clse">닫기</button>
-              <h3>공공치빵(파맛)</h3>
-              <div class="menu-tit2" style="font-size: 0.89rem;">
-                WATER ROUX CREAM CHEESE BREAD (CHIVES)
-                <p class="txt">
-                  ‘공’들여 ‘공’수한 크림’치’즈 ‘빵’ 쫄깃한 빵 속에 크림치즈와 생크림이 듬뿍! 국내산 파가 송송!
-                </p>
-                <div class="box">
-                  <p>※ 1회 제공량 기준:60ml</p>
-                  <ul class="table">
-                    <li>
-                      <div>카페인(mg)</div>
-                      <div>237.0</div>
-                    </li>
-                    <li>
-                      <div>나트륨(mg)</div>
-                      <div>0</div>
-                    </li>
-                    <li>
-                      <div>포화지방(g)</div>
-                      <div>0</div>
-                    </li>
-                    <li>
-                      <div>칼로리(kcal)</div>
-                      <div>22</div>
-                    </li>
-                    <li>
-                      <div>당류(g)</div>
-                      <div>0</div>
-                    </li>
-                    <li>
-                      <div>단백질(g)</div>
-                      <div>1</div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <p class="msg">
-                (매장 상황에 따라 판매하지 않을 수 있습니다.)
-              </p>
-            </div>
-            </li>
-            <li><img src="./images/mnu9.png" alt="빽사이즈 빽’s라떼">
-              <span>best</span>
-              <p>빽사이즈 빽’s라떼</p>
-              <div class="list-info">
-              <button class="clse">닫기</button>
-              <h3>찰떡맛남(예산 사과)</h3>
-              <div class="menu-tit2" style="font-size: 0.89rem;">
-                CREAM FILLING GLUTINOUS RICE CAKE (APPLE)
-                <p class="txt">
-                  우리 고장 특산물과 크림 가득 찹쌀떡의 찰떡만남!
-                </p>
-                <div class="box">
-                  <p>※ 1회 제공량 기준:60ml</p>
-                  <ul class="table">
-                    <li>
-                      <div>카페인(mg)</div>
-                      <div>237.0</div>
-                    </li>
-                    <li>
-                      <div>나트륨(mg)</div>
-                      <div>0</div>
-                    </li>
-                    <li>
-                      <div>포화지방(g)</div>
-                      <div>0</div>
-                    </li>
-                    <li>
-                      <div>칼로리(kcal)</div>
-                      <div>22</div>
-                    </li>
-                    <li>
-                      <div>당류(g)</div>
-                      <div>0</div>
-                    </li>
-                    <li>
-                      <div>단백질(g)</div>
-                      <div>1</div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <p class="msg">
-                (매장 상황에 따라 판매하지 않을 수 있습니다.)
-              </p>
-            </div>
-            </li>
-          </ul>
-        </article>
-        <a href="#" class="slides-prev slides-nav">이전</a>
-        <a href="#" class="slides-next slides-nav">다음</a>
-      </div>
-      <div class="mnu-radio">
-        <form action="#">
-          <h3>메뉴검색</h3>
-          <div class="mnu-search">
-            <input type="text" name="search_string" placeholder="메뉴를 입력하세요.">
-            <button class="ok" type="submit" name="">
-              <img src="https://paikdabang.com/wp-content/themes/paikdabang/assets/images/search-ico.png" alt="검색">
-          </div>
-          <ul class="mnu-checked">
-            <li>
-              <label for="new"><input type="checkbox" value="new" id="new">NEW</label>
-            </li>
-            <li>
-              <label for="coffee"> <input type="checkbox"  value="coffee" id="coffee">COFFEE</label>
-            </li>
-            <li>
-              <label for="beverage"> <input type="checkbox" value="beverage" id="beverage">BEVERAGE</label>
-            </li>
-            <li>
-              <label for="dessert"><input type="checkbox" value="dessert" id="dessert">DESSERT</label>
-            </li>
-            <li>
-              <label for="icecream"><input type="checkbox" value="icecream" id="icecream">ICECREAM</label>
-            </li>
-            <li>
-              <label for="paik'sccino"><input type="checkbox" value="paik'sccino" id="paik'sccino">PAIK'SCCINO</label>
-            </li>
-          </ul>
-        </form>
-
-      </div>
-      <article class="list">
-        <ul class="list-on">
-          <li>
-            <a href="#"><img src="./images/mnu1.png" alt="원조커피"></a>
-            <p>원조커피 ICED</p>
-
-            <div class="list-info">
-              <button class="clse">닫기</button>
-              <h3>원조커피</h3>
-              <div class="menu-tit2">
-                ORIGINAL MIXED COFFEE
-                <p class="txt">
-                  달콤한 빽다방 대표메뉴, 믹스커피 종결자!
-                </p>
-                <div class="box">
-                  <p>※ 1회 제공량 기준:60ml</p>
-                  <ul class="table">
-                    <li>
-                      <div>카페인(mg)</div>
-                      <div>237.0</div>
-                    </li>
-                    <li>
-                      <div>나트륨(mg)</div>
-                      <div>0</div>
-                    </li>
-                    <li>
-                      <div>포화지방(g)</div>
-                      <div>0</div>
-                    </li>
-                    <li>
-                      <div>칼로리(kcal)</div>
-                      <div>22</div>
-                    </li>
-                    <li>
-                      <div>당류(g)</div>
-                      <div>0</div>
-                    </li>
-                    <li>
-                      <div>단백질(g)</div>
-                      <div>1</div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <p class="msg">
-                (매장 상황에 따라 판매하지 않을 수 있습니다.)
-              </p>
-            </div>
-          </li>
-          <li>
-            <a href="#"><img src="./images/mnu2.png" alt="원조커피"></a>
-            <p>달달연유라떼 ICED</p>
-            <div class="list-info">
-              <button class="clse">닫기</button>
-              <h3>달달연유라떼 ICED</h3>
-              <div class="menu-tit2">
-                CONDENSED MILK LATTE
-                <p class="txt">
-                  달달하고 향긋한 베트남식 연유라떼
-                </p>
-                <div class="box">
-                  <p>※ 1회 제공량 기준:60ml</p>
-                  <ul class="table">
-                    <li>
-                      <div>카페인(mg)</div>
-                      <div>237.0</div>
-                    </li>
-                    <li>
-                      <div>나트륨(mg)</div>
-                      <div>0</div>
-                    </li>
-                    <li>
-                      <div>포화지방(g)</div>
-                      <div>0</div>
-                    </li>
-                    <li>
-                      <div>칼로리(kcal)</div>
-                      <div>22</div>
-                    </li>
-                    <li>
-                      <div>당류(g)</div>
-                      <div>0</div>
-                    </li>
-                    <li>
-                      <div>단백질(g)</div>
-                      <div>1</div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <p class="msg">
-                (매장 상황에 따라 판매하지 않을 수 있습니다.)
-              </p>
-            </div>
-          </li>
-          <li>
-            <a href="#"><img src="./images/mnu3.png" alt="원조커피"></a>
-            <p>콜드브루 ICED</p>
-            <div class="list-info">
-              <button class="clse">닫기</button>
-              <h3>원조커피</h3>
-              <div class="menu-tit2">
-                ORIGINAL MIXED COFFEE
-                <p class="txt">
-                  달콤한 빽다방 대표메뉴, 믹스커피 종결자!
-                </p>
-                <div class="box">
-                  <p>※ 1회 제공량 기준:60ml</p>
-                  <ul class="table">
-                    <li>
-                      <div>카페인(mg)</div>
-                      <div>237.0</div>
-                    </li>
-                    <li>
-                      <div>나트륨(mg)</div>
-                      <div>0</div>
-                    </li>
-                    <li>
-                      <div>포화지방(g)</div>
-                      <div>0</div>
-                    </li>
-                    <li>
-                      <div>칼로리(kcal)</div>
-                      <div>22</div>
-                    </li>
-                    <li>
-                      <div>당류(g)</div>
-                      <div>0</div>
-                    </li>
-                    <li>
-                      <div>단백질(g)</div>
-                      <div>1</div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <p class="msg">
-                (매장 상황에 따라 판매하지 않을 수 있습니다.)
-              </p>
-            </div>
-          </li>
-          <li>
-            <a href="#"><img src="./images/mnu4.png" alt="원조커피"></a>
-            <p>릴렉싱허니셔벗페퍼민트(자몽)</p>
-            <div class="list-info">
-              <button class="clse">닫기</button>
-              <h3>릴렉싱허니셔벗페퍼민트(자몽)</h3>
-              <div class="menu-tit2" style="font-size: 0.89rem;">
-                RELAXING HONEY SHERBET (HIBISCUS LEMON)
-                <p class="txt">
-                  꿀 같은 달콤한 휴식을 선물해 줄 릴렉싱허니셔벗
-                </p>
-                <div class="box">
-                  <p>※ 1회 제공량 기준:60ml</p>
-                  <ul class="table">
-                    <li>
-                      <div>카페인(mg)</div>
-                      <div>237.0</div>
-                    </li>
-                    <li>
-                      <div>나트륨(mg)</div>
-                      <div>0</div>
-                    </li>
-                    <li>
-                      <div>포화지방(g)</div>
-                      <div>0</div>
-                    </li>
-                    <li>
-                      <div>칼로리(kcal)</div>
-                      <div>22</div>
-                    </li>
-                    <li>
-                      <div>당류(g)</div>
-                      <div>0</div>
-                    </li>
-                    <li>
-                      <div>단백질(g)</div>
-                      <div>1</div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <p class="msg">
-                (매장 상황에 따라 판매하지 않을 수 있습니다.)
-              </p>
-            </div>
-          </li>
-          <li>
-            <a href="#"><img src="./images/mnu5.png" alt="원조커피"></a>
-            <p>릴렉싱허니셔벗페퍼민트(자몽)</p>
-            <div class="list-info">
-              <button class="clse">닫기</button>
-              <h3>릴렉싱허니셔벗페퍼민트(자몽)</h3>
-              <div class="menu-tit2" style="font-size: 0.89rem;">
-                RELAXING HONEY SHERBET (PEPPERMINT GRAPEFRUIT)
-                <p class="txt">
-                  꿀 같은 달콤한 휴식을 선물해 줄 릴렉싱허니셔벗
-                </p>
-                <div class="box">
-                  <p>※ 1회 제공량 기준:60ml</p>
-                  <ul class="table">
-                    <li>
-                      <div>카페인(mg)</div>
-                      <div>237.0</div>
-                    </li>
-                    <li>
-                      <div>나트륨(mg)</div>
-                      <div>0</div>
-                    </li>
-                    <li>
-                      <div>포화지방(g)</div>
-                      <div>0</div>
-                    </li>
-                    <li>
-                      <div>칼로리(kcal)</div>
-                      <div>22</div>
-                    </li>
-                    <li>
-                      <div>당류(g)</div>
-                      <div>0</div>
-                    </li>
-                    <li>
-                      <div>단백질(g)</div>
-                      <div>1</div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <p class="msg">
-                (매장 상황에 따라 판매하지 않을 수 있습니다.)
-              </p>
-            </div>
-          </li>
-          <li>
-            <a href="#"><img src="./images/mnu6.png" alt="원조커피"></a>
-            <p>완전수박</p>
-            <div class="list-info">
-              <button class="clse">닫기</button>
-              <h3>완전수박</h3>
-              <div class="menu-tit2">
-                WATERMELON JUICE
-                <p class="txt">
-                  달콤한 수박을 듬뿍 넣어 만든 완전수박
-                </p>
-                <div class="box">
-                  <p>※ 1회 제공량 기준:60ml</p>
-                  <ul class="table">
-                    <li>
-                      <div>카페인(mg)</div>
-                      <div>237.0</div>
-                    </li>
-                    <li>
-                      <div>나트륨(mg)</div>
-                      <div>0</div>
-                    </li>
-                    <li>
-                      <div>포화지방(g)</div>
-                      <div>0</div>
-                    </li>
-                    <li>
-                      <div>칼로리(kcal)</div>
-                      <div>22</div>
-                    </li>
-                    <li>
-                      <div>당류(g)</div>
-                      <div>0</div>
-                    </li>
-                    <li>
-                      <div>단백질(g)</div>
-                      <div>1</div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <p class="msg">
-                (매장 상황에 따라 판매하지 않을 수 있습니다.)
-              </p>
-            </div>
-          </li>
-          <li>
-            <a href="#"><img src="./images/mnu7.png" alt="원조커피"></a>
-            <p>공공치빵(초코맛)</p>
-            <div class="list-info">
-              <button class="clse">닫기</button>
-              <h3>공공치빵(초코맛)</h3>
-              <div class="menu-tit2" style="font-size: 0.89rem;">
-                WATER ROUX CREAM CHEESE BREAD (CHOCOLATE)
-                <p class="txt">
-                  공’들여 ‘공’수한 크림’치’즈 ‘빵’ 쫄깃한 빵 속에 크림치즈와 생크림이 듬뿍! 초코크림이 한가득!
-                </p>
-                <div class="box">
-                  <p>※ 1회 제공량 기준:60ml</p>
-                  <ul class="table">
-                    <li>
-                      <div>카페인(mg)</div>
-                      <div>237.0</div>
-                    </li>
-                    <li>
-                      <div>나트륨(mg)</div>
-                      <div>0</div>
-                    </li>
-                    <li>
-                      <div>포화지방(g)</div>
-                      <div>0</div>
-                    </li>
-                    <li>
-                      <div>칼로리(kcal)</div>
-                      <div>22</div>
-                    </li>
-                    <li>
-                      <div>당류(g)</div>
-                      <div>0</div>
-                    </li>
-                    <li>
-                      <div>단백질(g)</div>
-                      <div>1</div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <p class="msg">
-                (매장 상황에 따라 판매하지 않을 수 있습니다.)
-              </p>
-            </div>
-          </li>
-          <li>
-            <a href="#"><img src="./images/mnu8.png" alt="원조커피"></a>
-            <p>공공치빵(파맛)</p>
-            <div class="list-info">
-              <button class="clse">닫기</button>
-              <h3>공공치빵(파맛)</h3>
-              <div class="menu-tit2" style="font-size: 0.89rem;">
-                WATER ROUX CREAM CHEESE BREAD (CHIVES)
-                <p class="txt">
-                  ‘공’들여 ‘공’수한 크림’치’즈 ‘빵’ 쫄깃한 빵 속에 크림치즈와 생크림이 듬뿍! 국내산 파가 송송!
-                </p>
-                <div class="box">
-                  <p>※ 1회 제공량 기준:60ml</p>
-                  <ul class="table">
-                    <li>
-                      <div>카페인(mg)</div>
-                      <div>237.0</div>
-                    </li>
-                    <li>
-                      <div>나트륨(mg)</div>
-                      <div>0</div>
-                    </li>
-                    <li>
-                      <div>포화지방(g)</div>
-                      <div>0</div>
-                    </li>
-                    <li>
-                      <div>칼로리(kcal)</div>
-                      <div>22</div>
-                    </li>
-                    <li>
-                      <div>당류(g)</div>
-                      <div>0</div>
-                    </li>
-                    <li>
-                      <div>단백질(g)</div>
-                      <div>1</div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <p class="msg">
-                (매장 상황에 따라 판매하지 않을 수 있습니다.)
-              </p>
-            </div>
-          </li>
-          <li>
-            <a href="#"><img src="./images/mnu9.png" alt="원조커피"></a>
-            <p>찰떡맛남(예산 사과)</p>
-            <div class="list-info">
-              <button class="clse">닫기</button>
-              <h3>찰떡맛남(예산 사과)</h3>
-              <div class="menu-tit2" style="font-size: 0.89rem;">
-                CREAM FILLING GLUTINOUS RICE CAKE (APPLE)
-                <p class="txt">
-                  우리 고장 특산물과 크림 가득 찹쌀떡의 찰떡만남!
-                </p>
-                <div class="box">
-                  <p>※ 1회 제공량 기준:60ml</p>
-                  <ul class="table">
-                    <li>
-                      <div>카페인(mg)</div>
-                      <div>237.0</div>
-                    </li>
-                    <li>
-                      <div>나트륨(mg)</div>
-                      <div>0</div>
-                    </li>
-                    <li>
-                      <div>포화지방(g)</div>
-                      <div>0</div>
-                    </li>
-                    <li>
-                      <div>칼로리(kcal)</div>
-                      <div>22</div>
-                    </li>
-                    <li>
-                      <div>당류(g)</div>
-                      <div>0</div>
-                    </li>
-                    <li>
-                      <div>단백질(g)</div>
-                      <div>1</div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <p class="msg">
-                (매장 상황에 따라 판매하지 않을 수 있습니다.)
-              </p>
-            </div>
-          </li>
-        </ul>
-      </article>
-      <article class="content_1">
-        <p class="frame">
-          <a href="#"><img src="./images/main_sec2.jpg" alt="커피메뉴"></a>
-        </p>
-        <div class="contents box1">
-          <h1>FRESH <br />
-            COFFEE</h1>
-          <p>신선한 뉴크롭 원두를 사용하여 <br />
-            추출한 커피메뉴!</p>
-          <a href="#" class="btn">
-            <span>더보기</span>
-          </a>
-        </div>
-      </article>
-
-      <article class="content_2">
-        <!-- 음료수 -->
-        <div class="beverage">
-          <p class="frame">
-            <a href="#"><img src="./images/main_sec3.jpg" alt="음료수메뉴"></a>
-          </p>
-          <div class="contents box2">
-            <h1>VARIOUS <br />
-              BEVERAGE</h1>
-            <p>에이드, 티, 주스 등 취향대로 <br />
-              골라 먹는 즐거움!</p>
-            <a href="#" class="btn">
-              <span>더보기</span>
-            </a>
-          </div>
-        </div>
-        <!-- 박스치노 -->
-        <div class="ccino">
-          <p class="frame">
-            <a href="#"><img src="./images/main_sec4.jpg" alt="백스치노메뉴"></a>
-          </p>
-          <div class="contents box2">
-            <h1>SWEET <br />
-              PAIK'S CCINO</h1>
-            <p>달콤 시원한 빽다방 <br />
-              시그니처 메뉴!</p>
-            <a href="#" class="btn">
-              <span>더보기</span>
-            </a>
-          </div>
-        </div>
-      </article>
-
-      <article class="content_3">
-        <div class="grid-wrap">
-          <div class="inner-box">
-            <div class="store">
-              <h1>STORE</h1>
-              <P>원하시는 지역의 매장을 검색해 보세요!</P>
-              <div class="store-search">
-                <form action="/store/" method="get">
-                  <input type="text" name="search_string" placeholder="Find a store in your area!">
-                  <button class="ok" type="submit" name="">
-                    <img src="https://paikdabang.com/wp-content/themes/paikdabang/assets/images/search-ico.png"
-                      alt="검색">
-                </form>
-              </div>
-            </div>
-            <div class="franchise">
-              <h1>FRANCHISE</h1>
-              <P>빽다방 창업안내를 도와드리겠습니다.</P>
-              <a href="#" class="btn"></a>
-            </div>
-
-          </div>
-          <div class="contents box3">
-            <p class='frame'>
-              <a href="#"><img src="./images/main_sec5.jpg" alt="TASTY
-              ICE CREAM /
-              DESSERT">
-              </a>
-            </p>
-            <div class="contents-des">
-              <h1>TASTY <br />
-                ICE CREAM / <br />
-                DESSERT</h1>
-              <p>달콤한 아이스크림부터 <br />
-                든든한 브레드 까지!</p>
-              <a href="#" class="btn">
-                <span>더보기</span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </article>
-
-      <article class="content_4">
-        <h3>PAIK’S COFFEE SNS</h3>
-        <p class="sns">#빽다방 #빽다방신메뉴 #빽다방이벤트</p>
-        <p class="icon">
-          <a><img src="./images/facebook-ico.png" alt="#"></a>
-          <a><img src="./images/insta-ico.png" alt="#"></a>
-        </p>
-      </article>
-    </section>
-
-  <div class="to_top">
-      <a href="#">
-        <span>▲</span>
-        TOP
-      </a>
     </div>
-    <footer>
-      <h2 class="logo"><a href=#><img src="./images/footer-logo.png" alt="the born"></a></h2>
-      <div class="copyright">
-        <nav>
-          <ul class="fnb">
-            <li><a href="#"> (주)더본코리아</a></li>
-            <li><a href="#">사업자등록번호 211-86-00870</a></li>
-            <li><a href="#">대표이사 백종원</a></li>
-          </ul>
-        </nav>
-        <ul>
-          <li>주소: 서울시 강남구 봉은사로 1길 39 유성빌딩 5~6층</li>
-          <li>팩스: 02-511-3864</li>
-        </ul>
-        <ol>
-          <li><a href="#">본사 대표전화: 02-549-3864</a></li>
-          <li><a href="#">가맹상담전화: 02-3447-0410</a></li>
-          <li><a href="#">고객센터: 1544-2360</a></li>
-        </ol>
-        <address>COPYRIGHT &copy; Jeongdahee</address>
+
+    <footer id="footer">
+      <div class="container">
+        <div class="in_footer">
+          <a class="logo" href="#"><img src="./images/footer-logo.png" alt="더본로고"></a>
+          <div class="company_info">
+            <ul>
+              <li>(주)더본코리아</li>
+              <li>사업자등록번호 211-86-00870</li>
+              <li>대표이사 백종원</li>
+            </ul>
+            <ul>
+              <li>주소: 서울시 강남구 봉은사로 1길 39 유성빌딩 5~6층</li>
+              <li>팩스: 02-511-3864</li>
+            </ul>
+            <ul>
+              <li>본사 대표전화: 02-549-3864</li>
+              <li>가맹상담전화: 02-3447-0410</li>
+              <li>고객센터: 1544-2360</li>
+            </ul>
+            <p class="copyright">COPYRIGHTⓒ 2018 THEBORN KOREA INC. ALL RIGHTS RESERVED</p>
+          </div>
+          <div class="r_box">
+            <div id="family_site" class="family_site">
+              <span>패밀리사이트 바로가기</span>
+              <ul id="fmenu">
+                <li><a href="#">더본코리아</a></li>
+                <li><a href="#">창업센터</a></li>
+                <li><a href="#">새마을식당</a></li>
+                <li><a href="#">한신포차</a></li>
+                <li><a href="#">역전우동</a></li>
+                <li><a href="#">백스비어</a></li>
+                <li><a href="#">롤링파스타</a></li>
+                <li><a href="#">인생설렁탕</a></li>
+                <li><a href="#">미정국수</a></li>
+                <li><a href="#">리춘시장</a></li>
+                <li><a href="#">원조쌈밥집</a></li>
+                <li><a href="#">돌배기집</a></li>
+                <li><a href="#">백철판</a></li>
+                <li><a href="#">호텔더본</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
-      <p class="family-site">
-        <label class="sr-only" for="family">패밀리사이트 바로가기</label>
-        <select name="family" id="family">
-          <option value="familysite">패밀리 사이트 바로가기</option>
-          <option value="thebornkorea">더본코리아</option>
-          <option value="center">창업센터</option>
-          <option value="samaul">새마을식당</option>
-          <option value="hansin">한신포차</option>
-          <option value="paiks'bear">빽스비어</option>
-          <option value="rolling pasta">롤링파스타</option>
-        </select>
-      </p>
     </footer>
   </div>
+  <!-- TOP버튼 -->
+  <div class="to_top">
+    <a href="#">
+      <span>▲</span>
+      TOP
+    </a>
+  </div>
+  <!-- //TOP버튼 -->
 </body>
 
 </html>
